@@ -4,7 +4,7 @@ echo "This is the output of command ls -1
 "
 ls -1
 echo "
-
+ls -1 outputs the list of filenames as 1 column
 "
 
 echo "This is what it looks like to search for \"do\" in every example script from the command: grep \"do\" \$(ls -1)
