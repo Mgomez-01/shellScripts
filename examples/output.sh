@@ -7,8 +7,17 @@ echo "
 
 "
 
-echo "This is what it looks like to search for \"do\" in every example script from the command:
-
+echo "This is what it looks like to search for \"do\" in every example script from the command: grep \"do\" \$(ls -1)
+///////////////////
 "
 
 grep "do" $(ls -1)
+
+echo "
+
+How about just using grep?, you can use the command: grep \"do\" . -r 
+
+
+"
+
+grep "do" . -r
