@@ -11,4 +11,9 @@ echo "Filename : $1
 echo "FilePattern: $filePattern
 
 "
+
+# checking if filename matches the pattern with tertiary statement
+
+# [[condition]] && if true || if false
+
 [[ $filename == $filePattern ]] && echo "Pattern match" || echo "Pattern does not match"
