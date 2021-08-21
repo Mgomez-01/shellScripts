@@ -20,4 +20,13 @@ How about just using grep?, you can use the command: grep \"do\" . -r
 
 "
 
-grep "do" . -r
+grep "do" . -r 
+
+echo "
+
+    Here is the same command with color added:  grep \"do\" . -r --color=auto 
+    
+    "
+
+
+grep "do" . -r --color=auto
